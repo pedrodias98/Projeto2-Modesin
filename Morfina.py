@@ -1,4 +1,4 @@
-from IMC_Calculator import Calcular_IMC()
+from IMC_Calculator import Calcular_IMC
 """
 Ms: Quantidade de morfina absorvida no sangue
 m:  Quantidade de Morfina
@@ -31,3 +31,4 @@ Injetável:
     #dose máxima: 15 mg/dose; infusão contínua: 0,025 a 0,1 (0,0625 ) mg/kg/hora.
 """
 
+Calcular_IMC()
