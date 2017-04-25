@@ -7,8 +7,8 @@ Created on Thu Mar 20 10:34:57 2017
 # Criando função para calcular o IMC:
 def Calcular_IMC():
     # Criando as entradas:
-    h = float(input("Insira o seu peso (em centímetros): "))   # w -> weight(peso)
-    w = float(input("Insira a sua altura (em quilogramas):"))  # h -> height(altura)
+    h = float(input("Insira o seu altura (em centímetros): "))  # h -> height(altura)
+    w = float(input("Insira a sua peso (em quilogramas):"))     # w -> weight(peso)
 # Calculando o IMC:
     IMC = (1.3*w)/((h/100)**2.5)
 # Gerando o cálculo:
