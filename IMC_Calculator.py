@@ -6,9 +6,9 @@ Created on Thu Mar 20 10:34:57 2017
 """
 # Criando função para calcular o IMC:
 def Calcular_IMC():
-# Criando as entradas:
-    h = float(input("Insira o seu peso (em centímetros): "))        #w -> weight(peso)
-    w = float(input("Insira a sua altura (em quilogramas):"))  #h -> height(altura)
+    # Criando as entradas:
+    h = float(input("Insira o seu peso (em centímetros): "))   # w -> weight(peso)
+    w = float(input("Insira a sua altura (em quilogramas):"))  # h -> height(altura)
 # Calculando o IMC:
     IMC = (1.3*w)/((h/100)**2.5)
 # Gerando o cálculo:
@@ -20,4 +20,4 @@ def Calcular_IMC():
         print("Você está com sobrepeso")
     else:
         print("Você está obeso")
-    print(IMC)
+    return IMC
